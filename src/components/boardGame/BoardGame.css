@@ -1,0 +1,19 @@
+img {
+  width: 180px;
+  height: 175px;
+  border-radius: 16px;
+}
+
+@media (max-width: 850px) {
+  img {
+    width: 162px;
+    height: 162px;
+  }
+}
+
+@media (max-width: 450px) {
+  img {
+    width: 92px;
+    height: 92px;
+  }
+}
